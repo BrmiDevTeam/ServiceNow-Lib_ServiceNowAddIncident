@@ -80,6 +80,6 @@
     </ui:GetRobotAsset>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="444,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;SN_InstanceURL : &quot;+SN_InstanceURL]" />
     <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="ServiceNow_Login" DisplayName="Get Credential" FolderPath="Default" sap:VirtualizedContainerService.HintSize="444,22" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[SN_Password]" Username="[SN_UserId]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="444,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;SN_UserId : &quot;+SN_UserId]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="444,94.6666666666667" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;SN_UserId : &quot;+SN_UserId+&quot;Tes&quot;]" />
   </Sequence>
 </Activity>
